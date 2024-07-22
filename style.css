@@ -1,0 +1,15 @@
+/* GENERAL */
+
+img {
+    max-width: 100%;
+}
+
+/* Style */
+
+.logo_img {
+    width: 100px;
+}
+
+.play_btn {
+    padding: 5px 25px;
+}
