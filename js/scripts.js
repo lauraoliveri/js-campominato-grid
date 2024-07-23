@@ -14,12 +14,17 @@ PlayButton.addEventListener('click', function() {
         const NewCell = document.createElement('div');
         NewCell.classList.add("grid_container_cells");
         console.log('Nuova Cella', NewCell, typeof NewCell);
-        NewCell.innerHTML = '<h3>' + ( i + 1 ) + '</h3>';
+        NewCell.innerHTML =  i + 1 ;
 
         // aggiungo le nuova celle al contenitore della griglia
         Grid.append(NewCell);
-    }
+        
+        NewCell.addEventListener('click', function() {
+            NewCell.classList.add("cells_clicked");
+            console.log(NewCell.innerHTML);
+        })
 
+    }
 
 })
  
