@@ -34,9 +34,17 @@ img {
     font-weight: bolder;
     background-color:#E098E0;
     border: 1px solid aqua;
+    cursor: pointer;
 }
 
 .cells_clicked {
     background-color: aqua;
+    border: 1px solid #E098E0;;
     transition: ease-in-out;
+}
+
+.rainbow_text {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
 }
